@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mandarlad1987.github.io/EmployeeTaskList/",
+  "homepage": "https://mandarlad1987.github.io/EmpTaskList",
   "name": "employee-data",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
