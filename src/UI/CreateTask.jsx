@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { authContext } from '../context/AuthContext';
 
 const CreateTask = () => {
-const {tasks , setTaskList } = useContext(authContext);
+const {taskList , setTaskList } = useContext(authContext);
     const [tasktitle, setTaskTitle] = React.useState("");
     const [date, setDate] = React.useState("");
     const [assign, setAssign] = React.useState("");
@@ -17,7 +17,7 @@ const {tasks , setTaskList } = useContext(authContext);
             assignTo: assign,
             description: description
         };
-        setTaskList([...tasks, newTask]);
+        setTaskList([...taskList, newTask]);
         setTaskTitle("");
         setDate("");
         setAssign("");

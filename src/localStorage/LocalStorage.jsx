@@ -65,7 +65,7 @@ const userDetails = [
     name: "Admin Two",
     age: 38,
     email: "admin.two@example.com",
-    password: "AdminTwo@456",
+    password: "123",
     position: "HR Admin",
     department: "Human Resources",
     role: "admin"
